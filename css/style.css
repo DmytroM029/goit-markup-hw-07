@@ -683,7 +683,7 @@ textarea {
 }
 
 .footer-first_item {
-  margin-right: 70px;
+  margin-right: 50px;
 }
 /*!!!!!!!!!!footer-second_item!!!!!!!!!*/
 .footer-second_item {
@@ -827,7 +827,7 @@ textarea {
 
   align-items: center;
   cursor: pointer;
-  position: relative;ы
+  position: relative;
 }
 
 .button-form-icons {
@@ -936,7 +936,6 @@ textarea {
   letter-spacing: 0.01em;
 
   color: #757575;
- 
 }
 
 /* ИЛИ .form-field input {/*1:14:16 https://www.youtube.com/watch?v=Ssws6DoJ3oY&feature=youtu.be*/
@@ -944,11 +943,9 @@ textarea {
 }*/
 
 .icon-position {
-   position: relative;
-   margin-top: 4px;
+  position: relative;
+  margin-top: 4px;
 }
-
-
 
 .form-field input {
   width: 100%;
@@ -963,7 +960,7 @@ textarea {
 .form-field input:focus {
   border: 1px solid #2196f3;
 
-   outline: none;
+  outline: none;
 }
 
 /*ИЛИ*/
@@ -972,7 +969,7 @@ textarea {
 .form-field:focus-within > .comment {
   border: 1px solid #2196f3;
   border-radius: 4px;
-    outline: none;
+  outline: none;
 }
 
 .form-field label {
@@ -980,7 +977,8 @@ textarea {
   margin-bottom: 5px;
 }
 
-.form-icons {/*55:00https://www.youtube.com/watch?v=6_Fq4G1pZas&feature=youtu.be*/
+.form-icons {
+  /*55:00https://www.youtube.com/watch?v=6_Fq4G1pZas&feature=youtu.be*/
   position: absolute;
   width: 18px;
   height: 18px;
@@ -1061,7 +1059,7 @@ textarea {
   padding: 12px 16px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  resize: none;/*невозможно растягивать ширину 1:18:00 https://www.youtube.com/watch?v=6_Fq4G1pZas&feature=youtu.be*/
+  resize: none; /*невозможно растягивать ширину 1:18:00 https://www.youtube.com/watch?v=6_Fq4G1pZas&feature=youtu.be*/
 }
 
 .form-field textarea::placeholder {
@@ -1074,8 +1072,6 @@ textarea {
   color: rgba(117, 117, 117, 0.5);
   padding-top: 8px;
 }
-
-
 
 /*.form-checkbox input[type="checkbox"] {
   width: 16px;
@@ -1132,8 +1128,6 @@ textarea {
   border-radius: 2px;
 }
 
-
-
 /*===================Кастомный Checkbox END==================*/
 
 .mode-button {
@@ -1166,9 +1160,6 @@ textarea {
   fill: #2196f3;
   border: 1px solid #2196f3;
 }
-
-
-
 
 /*/////////////////////portfolio.html////////////////////////*/
 
