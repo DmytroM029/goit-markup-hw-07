@@ -6,6 +6,11 @@
 
 @import "./components/section";
 
+@import "./layout/header";
+@import "./layout/logo";
+@import "./layout/site-nav";
+@import "./layout/site-auth";
 @import "./layout/port-filter_section";
 @import "./layout/port-filter_button";
 @import "./layout/port-filter_list";
+@import "./layout/footer";
