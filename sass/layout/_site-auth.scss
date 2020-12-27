@@ -3,22 +3,28 @@
   display: flex;
   margin-left: auto;
   align-items: center;
+  & .item  + .item /*альтернатива .site-auth .item:not(:last-child). Только делает последним не правый, а левый элемент (от первого левого, который не учитывается).*/ {
+    margin-left: 30px;
+  }
 }
-.site-auth .item  + .item /*альтернатива .site-auth .item:not(:last-child). Только делает последним не правый, а левый элемент (от первого левого, который не учитывается).*/ {
+/*.site-auth .item  + .item /*альтернатива .site-auth .item:not(:last-child). Только делает последним не правый, а левый элемент (от первого левого, который не учитывается).*/
+/*{
   margin-left: 30px;
-}
-.site-auth .auth-list_link {
+}*/
+
+.auth-list_link {
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  &:hover,
+  &:focus {
+    color: var(--title-text-color);
+    fill: var(--title-text-color);
+  }
 }
-.site-auth .auth-list_link:hover,
-.site-auth .auth-list_link:focus {
-  color: var(--title-text-color);
-  fill: var(--title-text-color);
-}
+
 .auth-list_icona {
   width: 16px;
   height: 12px;

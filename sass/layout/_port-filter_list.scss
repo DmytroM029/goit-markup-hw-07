@@ -38,12 +38,6 @@ width: 370px;
   margin-right: 0;*/
 } /*100%строки; 60px- суммарное значение 2 маржинов по 30px каждый в одной строке (2 маржина между 3-х элементов) / 3-количество элементов в строке*/
 
-.filter-list_link:hover,
-.filter-list_link:focus {
-  background: var(--hero-color);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 .filter-thumb {
   /*ДЗ-5*/
   position: relative;
@@ -93,6 +87,12 @@ width: 370px;
 
 .filter-list_link {
   display: block;
+  &:hover,
+  &:focus {
+    background: var(--hero-color);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
   &:hover .filter-cover,
   &:focus .filter-cover {
     /*transform: translate(-20px);*/

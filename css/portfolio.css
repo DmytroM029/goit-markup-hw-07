@@ -210,7 +210,7 @@ textarea {
   margin-left: 30px;
 }
 
-.site-auth .auth-list_link {
+.auth-list_link {
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
@@ -218,8 +218,7 @@ textarea {
   letter-spacing: 0.02em;
 }
 
-.site-auth .auth-list_link:hover,
-.site-auth .auth-list_link:focus {
+.auth-list_link:hover, .auth-list_link:focus {
   color: var(--title-text-color);
   fill: var(--title-text-color);
 }
@@ -379,12 +378,6 @@ width: 370px;
 }
 
 /*100%строки; 60px- суммарное значение 2 маржинов по 30px каждый в одной строке (2 маржина между 3-х элементов) / 3-количество элементов в строке*/
-.filter-list_link:hover,
-.filter-list_link:focus {
-  background: var(--hero-color);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .filter-thumb {
   /*ДЗ-5*/
   position: relative;
@@ -440,6 +433,11 @@ width: 370px;
 }
 .filter-img {
 }*/
+}
+
+.filter-list_link:hover, .filter-list_link:focus {
+  background: var(--hero-color);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .filter-list_link:hover .filter-cover,

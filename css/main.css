@@ -615,7 +615,7 @@ textarea {
   margin-left: 30px;
 }
 
-.site-auth .auth-list_link {
+.auth-list_link {
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
@@ -623,8 +623,7 @@ textarea {
   letter-spacing: 0.02em;
 }
 
-.site-auth .auth-list_link:hover,
-.site-auth .auth-list_link:focus {
+.auth-list_link:hover, .auth-list_link:focus {
   color: var(--title-text-color);
   fill: var(--title-text-color);
 }
