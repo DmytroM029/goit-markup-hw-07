@@ -67,11 +67,10 @@
   border: 1px solid transparent;
   outline: none;
   animation-duration: 2200ms;
-}
-
-.button:hover,
-.button:focus {
-  color: var(--title-text-color);
-  background-color: var(--hero-color);
-  font-family: inherit;
+  &:hover,
+  &:focus {
+    color: var(--title-text-color);
+    background-color: var(--hero-color);
+    font-family: inherit;
+  }
 }

@@ -19,13 +19,15 @@
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  &:hover,
+  &:focus {
+    fill: var(--title-text-color);
+    border: 1px solid var(--title-text-color);
+  }
 }
 
-.clients-list_item:not(:last-child) {
-  margin-right: 30px;
-}
-.clients-list_link:hover,
-.clients-list_link:focus {
-  fill: var(--title-text-color);
-  border: 1px solid var(--title-text-color);
+.clients-list_item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }

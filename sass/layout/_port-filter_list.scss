@@ -24,6 +24,18 @@
   margin-top: 30px;
   margin-left: 30px;
   text-align: start;
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+  /*ИЛИ
+width: 370px;
+  margin-right: 30px;
+}
+.filter-list-item:nth-child(3n) {
+  margin-right: 0;
+}
+.filter-list-item:nth-child(-n + 3) {
+  margin-right: 0;*/
 } /*100%строки; 60px- суммарное значение 2 маржинов по 30px каждый в одной строке (2 маржина между 3-х элементов) / 3-количество элементов в строке*/
 
 .filter-list_link:hover,
@@ -81,6 +93,19 @@
 
 .filter-list_link {
   display: block;
+  &:hover .filter-cover,
+  &:focus .filter-cover {
+    /*transform: translate(-20px);*/
+    /*opacity: 1;*/
+    transform: translateY(0);
+  }
+
+  /*.filter-list-item::before {
+  display: inline-block;
+  position: absolute;
+}
+.filter-img {
+}*/
 }
 /*transition: transform background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)*/
 /*,
@@ -89,33 +114,6 @@
 /*ИЛИ transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
-
-.filter-list_link:hover .filter-cover,
-.filter-list_link:focus .filter-cover {
-  /*transform: translate(-20px);*/
-  /*opacity: 1;*/
-  transform: translateY(0);
-}
-
-/*.filter-list-item::before {
-  display: inline-block;
-  position: absolute;
-}
-.filter-img {
-}*/
-
-.filter-list-item:nth-child(3n) {
-  margin-right: 0;
-}
-/*ИЛИ
-width: 370px;
-  margin-right: 30px;
-}
-.filter-list-item:nth-child(3n) {
-  margin-right: 0;
-}
-.filter-list-item:nth-child(-n + 3) {
-  margin-right: 0;*/
 
 .filter-experience {
   color: var(--primary-text-color);
