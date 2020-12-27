@@ -417,16 +417,6 @@ textarea {
   position: absolute;
 }
 
-.check-icon {
-  /*1:36:00https://www.youtube.com/watch?v=wahf3ZcDxV4&feature=youtu.be*/
-  display: inline-block;
-  width: 16px;
-  height: 15px;
-  border-radius: 4px;
-  border: 2px solid #000000;
-  margin-right: 7px;
-}
-
 .checkbox:checked + .check-icon {
   /*1:36:00https://www.youtube.com/watch?v=wahf3ZcDxV4&feature=youtu.be*/
   background-color: #2196f3;
@@ -439,6 +429,16 @@ textarea {
   border-color: #2196f3;
   box-sizing: border-box;
   border-radius: 2px;
+}
+
+.check-icon {
+  /*1:36:00https://www.youtube.com/watch?v=wahf3ZcDxV4&feature=youtu.be*/
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border-radius: 4px;
+  border: 2px solid #000000;
+  margin-right: 7px;
 }
 
 /*===================Кастомный Checkbox END==================*/
@@ -582,8 +582,7 @@ textarea {
   position: relative;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:hover, .site-nav .link:focus {
   color: var(--title-text-color);
 }
 
@@ -615,6 +614,10 @@ textarea {
   margin-left: 30px;
 }
 
+/*.site-auth .item  + .item /*альтернатива .site-auth .item:not(:last-child). Только делает последним не правый, а левый элемент (от первого левого, который не учитывается).*/
+/*{
+  margin-left: 30px;
+}*/
 .auth-list_link {
   color: var(--text-color);
   font-weight: 500;
@@ -649,8 +652,7 @@ textarea {
   align-items: center;
 }
 
-.social-list_link:hover,
-.social-list_link:focus {
+.social-list_link:hover, .social-list_link:focus {
   background-color: var(--title-text-color);
 }
 
@@ -1156,8 +1158,7 @@ textarea {
   fill: var(--social-link-color);
 }
 
-.social-list_link:hover,
-.social-list_link:focus {
+.social-list_link:hover, .social-list_link:focus {
   background-color: var(--title-text-color);
 }
 

@@ -45,14 +45,15 @@
   align-items: center;
 }
 
-.social-list_link:hover,
-.social-list_link:focus {
-  background-color: var(--title-text-color);
-}
-
-.social-list_link:hover .social-list_icon,
-.social-list_link:focus .social-list_icon {
-  fill: var(--hero-color);
+.social-list_link {
+  &:hover,
+  &:focus {
+    background-color: var(--title-text-color);
+  }
+  &:hover .social-list_icon,
+  &:focus .social-list_icon {
+    fill: var(--hero-color);
+  }
 }
 
 /*Иконки через Before 
